@@ -33,7 +33,7 @@ const Pricing=()=>{
       
 
     return(
-        <div>
+        <div style={{margin:"20px 0px"}}>
             <div style={{textAlign:"right",marginRight:"25px",marginTop:"15px"}}>
             {
                 isDark?
