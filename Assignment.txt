@@ -1,0 +1,26 @@
+Thank you for your interest in our internship opening. As a next step, we are expecting you to complete a short assignment.
+
+To evaluate your frontend development skills, we're asking you to complete a short assignment. Your task is to replicate a feature or component from our website, demonstrating your ability to create responsive, accessible, and user-friendly designs.
+
+Explore Our Website:
+
+1. Visit ("TryBookAI.com").
+2. Familiarize yourself with the design, layout, and user interactions.
+
+Task Description:
+
+Component to Implement:
+- Recreate the "Pricing" section or another key component (e.g., navigation bar, form, or card section) from the homepage.
+
+Requirements:
+-Ensure the component matches the design and functionality of the selected section.
+-Make the component fully responsive for various screen sizes.
+-Incorporate accessibility best practices, using semantic HTML and ARIA attributes.
+-Add a light and dark mode toggle.
+-Use a CSS framework (e.g., Tailwind CSS, Bootstrap) or custom CSS.
+-Implement any necessary interactivity with JavaScript or a frontend framework (e.g., React, Vue, Angular).
+
+Evaluation Criteria:
+-Design Fidelity: Accuracy in replicating the website's design.
+-Responsiveness: Adaptability to different screen sizes.
+-Code Quality: Cleanliness and organization of your code.

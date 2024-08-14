@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: white;
+    font-family: 'Inter', sans-serif !important;
+    line-height: 1.6 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.price-container {
+    border-radius: 5px;
+    padding: 25px 30px !important;
+    margin: 10px 20px;
+    max-width: 1200px; 
+    margin: auto; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.heading {
+    color: #a4b5fc;
 }
 
-.App-link {
-  color: #61dafb;
+.price-items {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.price-items > h3 {
+    font-weight: 600;
+}
+
+.price-table {
+    margin: 10px 0px;
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.price-table thead th {
+    background-color: #6367f0;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+.price-table tbody td {
+    font-weight: 300;
+    padding: 15px;
+    border-bottom: 1px solid #474747;
+    text-align: left;
+}
+
+/* Responsive Design - Media Queries */
+
+/* Small devices (mobile phones) */
+@media (max-width: 480px) {
+    .price-table thead th, .price-table tbody td {
+        padding: 10px; 
+        font-size: 14px; 
+    }
+
+    .price-items > h3 {
+        font-size: 16px; 
+    }
+
+    .price-container {
+        padding: 20px 15px; 
+    }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 768px) {
+    .price-table thead th, .price-table tbody td {
+        padding: 12px; 
+        font-size: 15px; 
+    }
+
+    .price-items > h3 {
+        font-size: 18px; 
+    }
+
+    .price-container {
+        padding: 25px 20px; 
+    }
+}
+
+/* Large devices (small laptops) */
+@media (max-width: 1024px) {
+    .price-table thead th, .price-table tbody td {
+        padding: 13px; 
+        font-size: 16px; 
+    }
+
+    .price-items > h3 {
+        font-size: 20px; 
+    }
+
+    .price-container {
+        padding: 30px 25px; 
+    }
+}
+
+/* Extra large devices (desktops) */
+@media (min-width: 1201px) {
+    .price-table thead th, .price-table tbody td {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .price-items > h3 {
+        font-size: 22px;
+    }
+
+    .price-container {
+        padding: 35px 30px;
+    }
 }
